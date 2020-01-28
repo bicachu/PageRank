@@ -1,0 +1,7 @@
+.idea/
+target/
+Makefile
+*.iml
+input/
+*.jar
+spark-warehouse/
