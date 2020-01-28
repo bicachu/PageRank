@@ -1,7 +1,13 @@
-Spark Scala - PageRank Implementation
+# Spark Scala - PageRank Implementation
 
 A Spark Scala implementation of the Page Rank algorithm on a simplified synthetic graph of nodes including dangling nodes
-where the synthetic graph consists of k linear chains, each with k vertices.
+where the synthetic graph consists of k linear chains, each with k vertices. The synthetic graph is created in the main scala program automatically before the PageRank algorithm starts based on the input k-parameter you can set/change. For example,for k-value of 3, the following graph would be created where nodes 3, 6, 9 would be dangling nodes or "pages" that have no outlink edges:
+
+1 --> 2 --> 3
+
+4 --> 5 --> 6
+
+7 --> 8 --> 9
 
 Installation
 ------------
